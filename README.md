@@ -1,4 +1,3 @@
-```markdown
 # Web Content Downloader
 
 The Web Content Downloader is a Python-based utility designed to facilitate the downloading of files linked within a webpage. Utilizing the BeautifulSoup library to parse HTML content and the requests library to handle HTTP requests, this application is perfect for anyone looking to automate the downloading of resources from the web.
