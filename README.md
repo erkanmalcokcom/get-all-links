@@ -36,8 +36,6 @@ The Web Content Downloader is a Python application that allows you to download f
 
 
 
-**Author**
-Erkan Malcok
+**Author**: Erkan Malcok
 
-**License**
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+**License**: This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
