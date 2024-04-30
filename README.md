@@ -20,7 +20,12 @@ Follow these steps to set up the Web Content Downloader on your local machine:
    ```
 
 2. **Prerequisites**
-   - Make sure Python is installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
+   - Python 3.10.13 (Tested). You can download it from [python.org](https://www.python.org/downloads/).
+   - Beautiful Soup 4
+   - Requests
+   - PyMuPDF
+   - PrettyTable
+   - OpenAI API Optional for summarizing.
 
 3. **Navigate to the project directory and install the required Python libraries:**
    ```bash
