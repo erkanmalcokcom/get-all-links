@@ -3,5 +3,6 @@ Quickly collect all links from multiple sources with BeautifulSoup.
 
 
 ```python
-**pip install beautifulsoup**
+pip install beautifulsoup
+pip install requests
 ```
