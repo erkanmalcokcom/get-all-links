@@ -1,5 +1,3 @@
-Certainly! Here's a complete `README.md` for the Web Content Downloader project, designed to be comprehensive and user-friendly:
-
 ```markdown
 # Web Content Downloader
 
