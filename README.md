@@ -55,7 +55,7 @@ You can use the Web Content Downloader in two ways depending on the source of th
 ### Summarizing PDF Documents
 To categorize and summarize PDF files, place them in a specified directory and run the summarization script:
 ```bash
-python summarize_app.py --directory downloads/0001.pdf
+python summarize_app.py --directory downloads
 ```
 
 ## Configuration Options

@@ -23,7 +23,24 @@ def extract_text_from_pdf(pdf_path):
     except Exception as e:
         raise RuntimeError(f"Could not read PDF file: {pdf_path}. Error: {str(e)}")
 
+def summarize_document_content(content):
+    """Summarize the content of a document."""
+    try:
+        # Simulating a conversational approach for summarization
+        summary_response = openai.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "user", "content": f"Summarize this document content: {content[:4000]}"}
+            ]
+        )
+        summary_text = summary_response.choices[0].message.content.strip()
+        return summary_text
+    except Exception as e:
+        raise RuntimeError(f"Error summarizing document content: {str(e)}")
+
 def categorize_and_summarize_files(download_dir):
+    """Categorize and summarize PDF files in a directory."""
     if not os.path.exists(download_dir):
         print(f"Directory {download_dir} does not exist.")
         return
@@ -39,18 +56,9 @@ def categorize_and_summarize_files(download_dir):
         filepath = os.path.join(abs_download_dir, filename)
         if filepath.endswith('.pdf'):
             try:
-                print(f"Processing file: {filepath}")
+                # print(f"Processing file: {filepath}")
                 pdf_text = extract_text_from_pdf(filepath)
-
-                # Simulating a conversational approach for summarization
-                summary_response = openai.chat.completions.create(
-                    model="gpt-3.5-turbo",
-                    messages=[
-                        {"role": "system", "content": "You are a helpful assistant."},
-                        {"role": "user", "content": f"Summarize this document content: {pdf_text[:4000]}"}
-                    ]
-                )
-                summary_text = summary_response.choices[0].message.content.strip()
+                summary_text = summarize_document_content(pdf_text)
                 summary_table.add_row([filename, summary_text])
 
             except Exception as e:
