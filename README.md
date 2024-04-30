@@ -15,13 +15,25 @@ The Web Content Downloader is a Python application that allows you to download f
 4. Run the `web_content_downloader.py` script to start the application.
 
 ### Usage
-1. If you have a URL:
+
+1. **If you have a URL:**
+
     - Run the script and provide the URL when prompted.
-    ```$ python web_content_downloader.py ```
-2. If you have local HTML files:
+    
+    ```
+    $ python web_content_downloader.py
+    ```
+
+2. **If you have local HTML files:**
+
     - Place the HTML file(s) in the root directory of the application.
+    
     - Run the script and select the option to use the local HTML file(s) when prompted.
-    ``` $ python web_content_downloader.py ```
+    
+    ```
+    $ python web_content_downloader.py
+    ```
+
 
 
 **Author**
