@@ -15,7 +15,7 @@ Follow these steps to set up the Web Content Downloader on your local machine:
 1. **Clone the Repository**
    - Obtain the project files by cloning this repository.
    ```bash
-   git clone https://github.com/yourusername/web_content_downloader.git
+   git clone https://github.com/erkanmalcokcom/web_content_downloader.git
    ```
 
 2. **Prerequisites**
