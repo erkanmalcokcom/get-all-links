@@ -70,9 +70,6 @@ Contributions to the Web Content Downloader are welcome. Please feel free to for
 ## License
 
 This project is licensed under the MIT License.
-```
-
-### Key Components of the README:
 
 - **Introduction**: A brief introduction about what the tool does and its primary features.
 - **Installation**: Step-by-step instructions on how to get the project up and running.
