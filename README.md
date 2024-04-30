@@ -77,5 +77,3 @@ This project is licensed under the MIT License.
 - **Configuration Options**: Mention of configurable aspects of the script to tailor it to specific needs.
 - **Contributions**: Encouragement for community involvement in improving the project.
 - **License**: Information on the project's license.
-
-This README should provide all necessary information to get started with the Web Content Downloader, from setup to everyday use.
